@@ -1,0 +1,3 @@
+export const content = "I am a student in the Software Engineering at the Vocational School, Gadjah Mada University, with a strong interest in Frontend Development. Currently, i am focused on developing technical skills in building responsive and interactive web applications using technologies such as HTML, CSS, JavaScript, and frameworks like React. I am passionate about continuously learning and exploring the latest tools and trends in frontend development, with the goal of becoming a proficient Frontend Developer and making contributions to the tech industry."
+
+export default content
