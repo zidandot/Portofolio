@@ -56,7 +56,7 @@ const Hero = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                             download
-                            className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10">
+                            className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10  hover:bg-gray-300">
                                 Download CV
                         </motion.a>
                     </motion.div>

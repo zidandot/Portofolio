@@ -1,4 +1,4 @@
-import { FaGithub, FaInstagram, FaLinkedin, FaSquareXTwitter } from 'react-icons/fa6'
+import { FaGithub, FaInstagram, FaLinkedin, FaSquareXTwitter, FaTwitter } from 'react-icons/fa6'
 import logo from "../assets/logo.png"
 
 const Navbar = () => {
@@ -9,30 +9,34 @@ const Navbar = () => {
                     <img src={logo} className="mx-2" width={50} height={33} alt="Logo"></img>
                 </a>
             </div>
-            <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-                <a href="https://www.linkedin.com/in/muhammad-zidan-alhilali-aaa63b321"
+            <div className="m-8 flex items-center justify-center gap-4 text-2xl ">
+                <a  href="https://www.linkedin.com/in/muhammad-zidan-alhilali-aaa63b321"
                     target="_blank"
                     rel="noopener noreferrer"
-                    aria-label="LinkedIn">
-                    <FaLinkedin />
+                    aria-label="LinkedIn"
+                    className="p-2 bg-transparent transition-all duration-500 ease-in-out hover:text-cyan-400 hover:scale-110 transform">
+                    <FaLinkedin/>
                 </a>
-                <a href="https://github.com/zidandot/"
+                <a  href="https://github.com/zidandot/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    aria-label="Github">
-                    <FaGithub />
+                    aria-label="Github"
+                    className="p-2 bg-transparent transition-all duration-500 ease-in-out hover:text-purple-500 hover:scale-110 transform">
+                    <FaGithub/>
                 </a>
-                <a href="https://www.instagram.com/m.alzdn/"
+                <a  href="https://www.instagram.com/m.alzdn/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    aria-label="Instagram">
-                    <FaInstagram />
+                    aria-label="Instagram"
+                    className="p-2 bg-transparent transition-all duration-500 ease-in-out hover:text-pink-500 hover:scale-110 transform">
+                    <FaInstagram/>
                 </a>
-                <a href="https://x.com/alzdnnn?s=21"
+                <a  href="https://x.com/alzdnnn?s=21"
                     target="_blank"
                     rel="noopener noreferrer"
-                    aria-label="Twitter">
-                    <FaSquareXTwitter />
+                    aria-label="Twitter"
+                    className="p-2 bg-transparent transition-all duration-500 ease-in-out hover:text-cyan-400 hover:scale-110 transform">
+                    <FaTwitter/>
                 </a>
             </div>
         </nav>
